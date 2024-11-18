@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Lab5.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Lab5.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Lab5.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Lab5.props",
+      "PackagePath": "build\\Lab5.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Lab5.props",
+      "PackagePath": "buildMultiTargeting\\Lab5.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Lab5.props",
+      "PackagePath": "buildTransitive\\Lab5.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
