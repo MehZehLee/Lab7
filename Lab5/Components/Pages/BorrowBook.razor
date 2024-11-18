@@ -1,0 +1,77 @@
+﻿@page "/borrow-book"
+@rendermode InteractiveServer
+@inject Lab5.Services.ILibraryService LibraryService
+
+<h3>Borrow a Book</h3>
+
+<div>
+    <label for="userId">Select User:</label>
+    <select id="userId" @bind="UserId">
+        <option value="">-- Select User --</option>
+        @foreach (var user in Users)
+        {
+            <option value="@user.Id">@user.Name</option>
+        }
+    </select>
+
+    <label for="bookId">Select Book:</label>
+    <select id="bookId" @bind="BookId">
+        <option value="">-- Select Book --</option>
+        @foreach (var book in AvailableBooks)
+        {
+            <option value="@book.Id">@book.Title</option>
+        }
+    </select>
+
+    <button @onclick="BorrowBooks">Borrow Book</button>
+</div>
+
+@if (Message != null)
+{
+    <p>@Message</p>
+}
+
+@code {
+    private int UserId;
+    private int BookId;
+    private string Message;
+
+    private List<User> Users = new List<User>();
+    private List<Book> AvailableBooks = new List<Book>();
+
+    protected override void OnInitialized()
+    {
+        Users = LibraryService.GetUsers();
+        AvailableBooks = LibraryService.GetAvailableBooks();
+    }
+
+    private async Task BorrowBooks()
+    {
+        try
+        {
+            var bookToBorrow = AvailableBooks.FirstOrDefault(b => b.Id == BookId);
+
+            if (bookToBorrow != null)
+            {
+                LibraryService.BorrowBook(BookId, UserId);
+                Message = "Book borrowed successfully!";
+
+                // Refresh the list of available books
+                AvailableBooks = LibraryService.GetAvailableBooks();
+            }
+            else
+            {
+                Message = "Book is not available or does not exist.";
+            }
+        }
+        catch (Exception ex)
+        {
+            Message = $"An error occurred: {ex.Message}";
+        }
+    }
+    /*
+     * This page allows a user to pick a user form Users.csv and let the picked user borrow a book. 
+     * The book will be removed from Books.csv and added to the borrowed book dictionary,
+     * that way no other user can borrow an already borrowed book.
+    */
+}
