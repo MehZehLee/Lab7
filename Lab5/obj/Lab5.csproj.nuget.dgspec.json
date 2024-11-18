@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5\\Lab5.csproj": {}
+    "C:\\Users\\ETSU\\Desktop\\github\\Lab7\\Lab5\\Lab5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5\\Lab5.csproj": {
+    "C:\\Users\\ETSU\\Desktop\\github\\Lab7\\Lab5\\Lab5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5\\Lab5.csproj",
+        "projectUniqueName": "C:\\Users\\ETSU\\Desktop\\github\\Lab7\\Lab5\\Lab5.csproj",
         "projectName": "Lab5",
-        "projectPath": "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5\\Lab5.csproj",
-        "packagesPath": "C:\\Users\\KJMaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5\\obj\\",
+        "projectPath": "C:\\Users\\ETSU\\Desktop\\github\\Lab7\\Lab5\\Lab5.csproj",
+        "packagesPath": "C:\\Users\\ETSU\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ETSU\\Desktop\\github\\Lab7\\Lab5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KJMaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ETSU\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5527,19 +5527,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KJMaz\\.nuget\\packages\\": {}
+    "C:\\Users\\ETSU\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5Testing\\Lab5Testing.csproj",
+      "projectUniqueName": "C:\\Users\\ETSU\\Desktop\\github\\Lab7\\Lab5Testing\\Lab5Testing.csproj",
       "projectName": "Lab5Testing",
-      "projectPath": "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5Testing\\Lab5Testing.csproj",
-      "packagesPath": "C:\\Users\\KJMaz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5Testing\\obj\\",
+      "projectPath": "C:\\Users\\ETSU\\Desktop\\github\\Lab7\\Lab5Testing\\Lab5Testing.csproj",
+      "packagesPath": "C:\\Users\\ETSU\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ETSU\\Desktop\\github\\Lab7\\Lab5Testing\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\KJMaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ETSU\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5554,8 +5554,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5\\Lab5.csproj": {
-              "projectPath": "C:\\Users\\KJMaz\\Desktop\\Lab5\\Lab5\\Lab5\\Lab5.csproj"
+            "C:\\Users\\ETSU\\Desktop\\github\\Lab7\\Lab5\\Lab5.csproj": {
+              "projectPath": "C:\\Users\\ETSU\\Desktop\\github\\Lab7\\Lab5\\Lab5.csproj"
             }
           }
         }
@@ -5608,7 +5608,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
