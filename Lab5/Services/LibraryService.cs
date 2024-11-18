@@ -65,7 +65,7 @@ namespace Lab5.Services
 
         public void AddBook(Book book)
         {
-            //book.Id = books.Any() ? books.Max(b => b.Id) + 1 : 1;
+            book.Id = books.Any() ? books.Max(b => b.Id) + 1 : 1;
             books.Add(book);
             SaveBooksToFile();
         

@@ -20,7 +20,8 @@ public class LibraryServiceTests
 
         //Makes sure mock data is in there for testing.
         File.WriteAllText(
-            Path.Combine(mockData, "Books.csv"),
+            Path.Combine(mockData, "DeliberateFail.csv"),
+            //Path.Combine(mockData, "Books.csv"),
             "1,Book 1,Author 1,111\n2,Book 2,Author 2,222"
         );
 
